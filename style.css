@@ -11,7 +11,7 @@
 .icon a{
   margin-top: 17%;
   text-decoration: none;
-  color: white;
+  color:white;
 }
 #btn{
   border: none;
@@ -128,10 +128,10 @@ margin-left: 5%;
   padding: 2%;
   margin-bottom: 12%;
 }
-/* .imgs img{
+ .imgs img{ 
   height: 162%;
   margin-top: -20%;
-} */
+} 
 #color{
   color: yellow;
 }
@@ -141,13 +141,13 @@ margin-left: 5%;
   margin-left: 12%;
   margin-right: 12%;
 }
-/* .imgess img{
+ .imgess img{
   margin-top: 5%;
-  background-color: antiquewhite;
+  background-color: whitesmoke;
   border: 2px ;
   padding: 23px;
  border-radius: 12%;
-} */
+} 
 .paragraph{
 margin-top: 15%;
 font-size:17px ;
@@ -194,7 +194,7 @@ ion-icon{
   margin-top: 12%;
 
 }
-#products{
+/* #products{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -209,6 +209,23 @@ ion-icon{
 }
 #products img{
   height: 800px;
+} */
+#products{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-left: 10%;
+  margin-bottom: 5%;
+  margin-right: 10%;
+}
+#products img{
+height: 200px;
+width: 200px;
+margin-top: 10%;
+border-radius: 20px;
+}
+#products h2{
+  font-size: 20px;
+  text-align: center;
 }
 @media (max-width: 375px) {
   .container-grid {
