@@ -1,0 +1,277 @@
+.icon{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  background-color: rgb(59, 58, 58);
+  color: white;
+  padding: 12px;
+}
+#get{
+  color: yellow;
+}
+.icon a{
+  margin-top: 17%;
+  text-decoration: none;
+  color: white;
+}
+#btn{
+  border: none;
+  padding: 10px 20px;
+ 
+  background-color: yellow;
+  }
+#btn a button{
+  margin-right: 5%;
+  margin-top: 20%;
+}
+.displays{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-left: 12%;
+  margin-right: 14%;
+}
+#button{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 212%;
+  background-color: transparent;
+  border:1px solid rgb(209, 196, 196);
+  margin-right: 52%;
+  
+
+}
+#logo img{
+  background-color: transparent;
+  border: 1px solid rgb(190, 178, 178);
+  margin-top: 2%;
+}
+#Search{
+  
+  padding: 12%;
+  
+}
+#more{
+  border: 2px solid rgb(235, 224, 224);
+  padding: 10px 40px;
+  margin-top: 4%;
+  background-color:transparent;
+}
+#order{
+  border: 2px solid rgb(168, 136, 136);
+  padding: 10px 40px;
+  margin-top: 4%;
+  background-color: yellow;
+}
+.displays button{
+  margin-left: 4%;
+  margin-top: 5%;
+  padding: 4px 200px;
+  text-align: right;
+}
+.container-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background-color:rgb(244, 188, 255) ;
+  padding: 30px;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-bottom: 5%;
+}
+#local{
+margin-left: 5%;
+
+}
+.container-grid img{
+  height: 355px;
+  width: 400px;
+  margin-right: 32%;
+}
+.container-accessories{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  margin-left: 12%;
+  margin-right: 12%;
+  gap: 2%;
+}
+.images p{
+  background-color: transparent;
+  padding: 40px 30px;
+  border: 2px solid rgb(206, 198, 198);
+}
+.image p{
+  background-color: black;
+  color: white;
+  padding: 40px 30px;
+}
+
+.phone{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-left: 12%;
+  margin-right: 4%;
+  margin-bottom: 12%;
+}
+.phone img{
+  height:300px ;
+  width:400px ;
+}
+.image1 img{
+  margin-top: 2.5%;
+  height:200px ;
+  width:400px ;
+}
+.phoness{
+  display: flex;
+  background-color: rgb(226, 171, 205);
+  height: 232px;
+  margin-left: 12%;
+  margin-right: 12%;
+  padding: 2%;
+  margin-bottom: 12%;
+}
+/* .imgs img{
+  height: 162%;
+  margin-top: -20%;
+} */
+#color{
+  color: yellow;
+}
+.imgess{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-left: 12%;
+  margin-right: 12%;
+}
+/* .imgess img{
+  margin-top: 5%;
+  background-color: antiquewhite;
+  border: 2px ;
+  padding: 23px;
+ border-radius: 12%;
+} */
+.paragraph{
+margin-top: 15%;
+font-size:17px ;
+}
+.contain{
+  text-align: center;
+}
+hr{
+  width: 60%;
+  height: 3px;
+  background-color: yellow;
+}
+.contain-button{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.contain-button button{
+  border: none;
+  padding: 10px 40px;
+ margin-top: 4%;
+  background-color: yellow;
+  
+  }
+
+.footer{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  /* margin-left: 12%; */
+  background-color: rgb(46, 44, 44);
+  color: white;
+  padding: 4%;
+  gap: 5%;
+  
+}
+#footer{
+  color: yellow;
+}
+.footer h1{
+  font-size: 26px;
+  padding: 2%;
+ 
+}
+ion-icon{
+  margin-top: 12%;
+
+}
+#products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  padding:5%;
+}
+.gadgets{
+  border: solid rgb(231, 170, 170);
+  border-radius: 5px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+#products img{
+  height: 800px;
+}
+@media (max-width: 375px) {
+  .container-grid {
+    grid-template-columns: 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+  }
+  .container-grid img {
+    height: 250px;
+    width: 100%;
+    margin-right: 0;
+  }
+  .container-accessories {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 1%;
+  }
+  .images p {
+    padding: 15px 10px;
+  }
+  .phone {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+  .phone img {
+    height: 200px;
+    width: 100%;
+  }
+  .phoness {
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
+    margin-bottom: 5%;
+  }
+  .imgs img {
+    height: auto;
+    margin-top: 0;
+    max-width: 90%;
+    margin-bottom: 6%;
+  }
+  .imgess {
+    grid-template-columns: 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  
+  #button {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 0;
+    border: none;
+    padding: 2px;
+  }
+  .icon {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 8px;
+  }
+
+}
